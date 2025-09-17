@@ -7,3 +7,6 @@ dependencies:
   - jupyter_server
   - jupyterlite-core >=0.6
   - jupyterlite-xeus >=4
+  - pip:
+      - jupytercad-lite
+      - jupytergis-lite
