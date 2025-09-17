@@ -1,0 +1,146 @@
+{
+  "metadata": {},
+  "objects": [
+    {
+      "name": "Star",
+      "parameters": {
+        "AttachmentOffset": {
+          "Angle": 0.0,
+          "Axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Geometry": [
+          {
+            "EndX": 0.0,
+            "EndY": -4.0,
+            "EndZ": 0.0,
+            "StartX": -3.0,
+            "StartY": 3.0,
+            "StartZ": 0.0,
+            "TypeId": "Part::GeomLineSegment"
+          },
+          {
+            "EndX": 3.0,
+            "EndY": 3.0,
+            "EndZ": 0.0,
+            "StartX": 0.0,
+            "StartY": -4.0,
+            "StartZ": 0.0,
+            "TypeId": "Part::GeomLineSegment"
+          },
+          {
+            "EndX": -4.0,
+            "EndY": -2.0,
+            "EndZ": 0.0,
+            "StartX": 3.0,
+            "StartY": 3.0,
+            "StartZ": 0.0,
+            "TypeId": "Part::GeomLineSegment"
+          },
+          {
+            "EndX": 4.0,
+            "EndY": -2.0,
+            "EndZ": 0.0,
+            "StartX": -4.0,
+            "StartY": -2.0,
+            "StartZ": 0.0,
+            "TypeId": "Part::GeomLineSegment"
+          },
+          {
+            "EndX": -3.0,
+            "EndY": 3.0,
+            "EndZ": 0.0,
+            "StartX": 4.0,
+            "StartY": -2.0,
+            "StartZ": 0.0,
+            "TypeId": "Part::GeomLineSegment"
+          }
+        ],
+        "Placement": {
+          "Angle": 0.0,
+          "Axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "shape": "Sketcher::SketchObject",
+      "visible": false
+    },
+    {
+      "dependencies": [
+        "Star"
+      ],
+      "name": "Extrusion 1",
+      "parameters": {
+        "Base": "Star",
+        "Color": "#e1ff00",
+        "Dir": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "LengthFwd": 1.0,
+        "LengthRev": 0.0,
+        "Placement": {
+          "Angle": 0.0,
+          "Axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Solid": false
+      },
+      "shape": "Part::Extrusion",
+      "shapeMetadata": {
+        "centerOfMass": [
+          -5.124106267500723e-17,
+          -0.4980769230769232,
+          0.5
+        ],
+        "mass": -17.333333333333332,
+        "matrixOfInertia": [
+          [
+            0.0,
+            0.0,
+            -76.12126923076924
+          ],
+          [
+            -35.12126923076924,
+            -1.3305595941276876e-15,
+            0.0
+          ],
+          [
+            -1.3305595941276876e-15,
+            -42.73333333333334,
+            0.0
+          ]
+        ]
+      },
+      "visible": true
+    }
+  ],
+  "options": {},
+  "outputs": {},
+  "schemaVersion": "3.0.0"
+}
