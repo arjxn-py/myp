@@ -1,0 +1,161 @@
+{
+  "layerTree": [
+    "2cb4a1e5-49c6-4cd4-92df-f3ae764d71f2",
+    "f2006b12-9bde-4382-89e9-e3944987c9a4"
+  ],
+  "layers": {
+    "2cb4a1e5-49c6-4cd4-92df-f3ae764d71f2": {
+      "name": "Esri.WorldTerrain Layer",
+      "parameters": {
+        "source": "3ba096ab-4e70-4740-bebb-efd0893db817"
+      },
+      "type": "RasterLayer",
+      "visible": true
+    },
+    "f2006b12-9bde-4382-89e9-e3944987c9a4": {
+      "name": "Custom GeoTiff Layer",
+      "parameters": {
+        "color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "band",
+            1.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          0.125,
+          [
+            28.0,
+            28.0,
+            39.0,
+            1.0
+          ],
+          0.25,
+          [
+            56.0,
+            56.0,
+            77.0,
+            1.0
+          ],
+          0.375,
+          [
+            84.0,
+            84.0,
+            116.0,
+            1.0
+          ],
+          0.5,
+          [
+            112.0,
+            123.0,
+            144.0,
+            1.0
+          ],
+          0.625,
+          [
+            141.0,
+            161.0,
+            172.0,
+            1.0
+          ],
+          0.75,
+          [
+            169.0,
+            200.0,
+            200.0,
+            1.0
+          ],
+          0.875,
+          [
+            212.0,
+            228.0,
+            228.0,
+            1.0
+          ],
+          1.0,
+          [
+            255.0,
+            255.0,
+            255.0,
+            1.0
+          ]
+        ],
+        "opacity": 1.0,
+        "source": "2e63d96a-8603-4a6f-81be-d7625c36b531",
+        "symbologyState": {
+          "band": 1.0,
+          "colorRamp": "bone",
+          "interpolation": "linear",
+          "mode": "equal interval",
+          "nClasses": "9",
+          "renderType": "Singleband Pseudocolor"
+        }
+      },
+      "type": "WebGlLayer",
+      "visible": true
+    }
+  },
+  "metadata": {},
+  "options": {
+    "bearing": 0.0,
+    "extent": [
+      -23224797.620933767,
+      -12063017.604483232,
+      16850219.06464472,
+      16430848.884734247
+    ],
+    "latitude": 19.245963466080653,
+    "longitude": -28.63190673467501,
+    "pitch": 0.0,
+    "projection": "EPSG:3857",
+    "zoom": 2.148476582178277
+  },
+  "schemaVersion": "0.5.0",
+  "sources": {
+    "2e63d96a-8603-4a6f-81be-d7625c36b531": {
+      "name": "Custom GeoTiff Source",
+      "parameters": {
+        "interpolate": false,
+        "normalize": true,
+        "urls": [
+          {
+            "max": 25000.0,
+            "min": 2000.0,
+            "url": "https://s2downloads.eox.at/demo/EOxCloudless/2020/rgbnir/s2cloudless2020-16bits_sinlge-file_z0-4.tif"
+          }
+        ],
+        "wrapX": false
+      },
+      "type": "GeoTiffSource"
+    },
+    "3ba096ab-4e70-4740-bebb-efd0893db817": {
+      "name": "Esri.WorldTerrain",
+      "parameters": {
+        "attribution": "Tiles (C) Esri -- Source: USGS, Esri, TANA, DeLorme, and NPS",
+        "maxZoom": 13.0,
+        "minZoom": 0.0,
+        "provider": "Esri",
+        "url": "https://server.arcgisonline.com/ArcGIS/rest/services/{variant}/MapServer/tile/{z}/{y}/{x}",
+        "urlParameters": {
+          "variant": "World_Terrain_Base"
+        }
+      },
+      "type": "RasterSource"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "layerTree": [
+    "b5f2f6a3-7ebe-4232-83a5-e36c86dab881",
+    "4ade6640-e35f-4f07-8d57-76db3b8a4866"
+  ],
+  "layers": {
+    "4ade6640-e35f-4f07-8d57-76db3b8a4866": {
+      "name": "Earthquakes",
+      "parameters": {
+        "opacity": 1.0,
+        "source": "7fe087e0-0730-4eff-ada3-266821f21d6f"
+      },
+      "type": "VectorLayer",
+      "visible": true
+    },
+    "b5f2f6a3-7ebe-4232-83a5-e36c86dab881": {
+      "name": "Esri.WorldTerrain Layer",
+      "parameters": {
+        "source": "555c8fd6-d86f-40aa-87fe-2d30e24866ea"
+      },
+      "type": "RasterLayer",
+      "visible": true
+    }
+  },
+  "metadata": {},
+  "options": {
+    "bearing": 0.0,
+    "extent": [
+      -11745294.033149378,
+      -10831117.897071317,
+      28329722.65242911,
+      17662748.592146162
+    ],
+    "latitude": 29.315121043616486,
+    "longitude": 74.49022853544098,
+    "pitch": 0.0,
+    "projection": "EPSG:3857",
+    "zoom": 2.148476582178277
+  },
+  "schemaVersion": "0.5.0",
+  "sources": {
+    "555c8fd6-d86f-40aa-87fe-2d30e24866ea": {
+      "name": "Esri.WorldTerrain",
+      "parameters": {
+        "attribution": "Tiles (C) Esri -- Source: USGS, Esri, TANA, DeLorme, and NPS",
+        "maxZoom": 13.0,
+        "minZoom": 0.0,
+        "provider": "Esri",
+        "url": "https://server.arcgisonline.com/ArcGIS/rest/services/{variant}/MapServer/tile/{z}/{y}/{x}",
+        "urlParameters": {
+          "variant": "World_Terrain_Base"
+        }
+      },
+      "type": "RasterSource"
+    },
+    "7fe087e0-0730-4eff-ada3-266821f21d6f": {
+      "name": "Custom GeoJSON Layer Source",
+      "parameters": {
+        "path": "eq.geojson"
+      },
+      "type": "GeoJSONSource"
+    }
+  }
+}

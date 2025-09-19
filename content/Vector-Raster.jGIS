@@ -1,0 +1,88 @@
+{
+  "layerTree": [
+    "6dd80360-2675-40cf-aaee-c7101ef1779a",
+    "a2ff98d0-0f0e-4ef1-9e6e-4c749210bb0b",
+    "20784b2b-0182-4ab4-ad2b-8e897a82de71"
+  ],
+  "layers": {
+    "20784b2b-0182-4ab4-ad2b-8e897a82de71": {
+      "name": "Custom GeoJSON Layer",
+      "parameters": {
+        "opacity": 1.0,
+        "source": "b89adb8a-b813-420c-80ed-5a7b95f3b817"
+      },
+      "type": "VectorLayer",
+      "visible": true
+    },
+    "6dd80360-2675-40cf-aaee-c7101ef1779a": {
+      "name": "OpenStreetMap.Mapnik Layer",
+      "parameters": {
+        "opacity": 1.0,
+        "source": "a6a98ac4-0d1c-4a3d-af71-88a91f28ccb9"
+      },
+      "type": "RasterLayer",
+      "visible": true
+    },
+    "a2ff98d0-0f0e-4ef1-9e6e-4c749210bb0b": {
+      "name": "Custom Raster Tile Layer",
+      "parameters": {
+        "opacity": 1.0,
+        "source": "3c352204-0236-4e2c-a85d-cd3c7d6506ff"
+      },
+      "type": "RasterLayer",
+      "visible": true
+    }
+  },
+  "metadata": {},
+  "options": {
+    "bearing": 0.0,
+    "extent": [
+      -20323249.998896703,
+      -11507600.888545897,
+      19751766.686681785,
+      16986265.600671582
+    ],
+    "latitude": 23.88443529013506,
+    "longitude": -2.566860969909548,
+    "pitch": 0.0,
+    "projection": "EPSG:3857",
+    "zoom": 2.148476582178277
+  },
+  "schemaVersion": "0.5.0",
+  "sources": {
+    "3c352204-0236-4e2c-a85d-cd3c7d6506ff": {
+      "name": "Custom Raster Tile Layer Source",
+      "parameters": {
+        "attribution": "",
+        "bounds": [],
+        "htmlAttribution": "",
+        "interpolate": false,
+        "maxZoom": 24.0,
+        "minZoom": 0.0,
+        "provider": "",
+        "url": "https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium_z9.pmtiles"
+      },
+      "type": "RasterSource"
+    },
+    "a6a98ac4-0d1c-4a3d-af71-88a91f28ccb9": {
+      "name": "OpenStreetMap.Mapnik",
+      "parameters": {
+        "attribution": "(C) OpenStreetMap contributors",
+        "interpolate": false,
+        "maxZoom": 19.0,
+        "minZoom": 0.0,
+        "provider": "OpenStreetMap",
+        "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "urlParameters": {}
+      },
+      "type": "RasterSource"
+    },
+    "b89adb8a-b813-420c-80ed-5a7b95f3b817": {
+      "name": "Custom GeoJSON Layer Source",
+      "parameters": {
+        "path": "eq.geojson"
+      },
+      "type": "GeoJSONSource"
+    }
+  }
+}
