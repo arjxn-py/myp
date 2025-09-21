@@ -1,8 +1,7 @@
 {
   "layerTree": [
     "61be25ef-df7e-4f6b-94a6-4f941e33151a",
-    "6e4567a1-8184-4450-acd0-9af9ab300c9d",
-    "f69ae555-2fed-4e98-abdc-4055b53c0aae"
+    "6e4567a1-8184-4450-acd0-9af9ab300c9d"
   ],
   "layers": {
     "61be25ef-df7e-4f6b-94a6-4f941e33151a": {
@@ -7804,28 +7803,19 @@
       },
       "type": "VectorLayer",
       "visible": true
-    },
-    "f69ae555-2fed-4e98-abdc-4055b53c0aae": {
-      "name": "France",
-      "parameters": {
-        "opacity": 1.0,
-        "source": "fab07362-ccf8-410e-bff9-f42d399b471e"
-      },
-      "type": "VectorLayer",
-      "visible": true
     }
   },
   "metadata": {},
   "options": {
     "bearing": 0.0,
     "extent": [
-      68509031.63947657,
-      -10695696.260853665,
-      108584048.32505506,
-      17798170.228363812
+      -10465184.740835104,
+      -7943671.097691534,
+      17181280.5145023,
+      16525039.530595595
     ],
-    "latitude": 30.370293559713588,
-    "longitude": 75.42710221969674,
+    "latitude": 35.92774843131859,
+    "longitude": 30.165857415478822,
     "pitch": 0.0,
     "projection": "EPSG:3857",
     "zoom": 2.148476582178277
@@ -7843,13 +7833,6 @@
       "name": "Custom GeoJSON Layer Source",
       "parameters": {
         "path": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson"
-      },
-      "type": "GeoJSONSource"
-    },
-    "fab07362-ccf8-410e-bff9-f42d399b471e": {
-      "name": "Custom GeoJSON Layer Source",
-      "parameters": {
-        "path": "https://geodata.ucdavis.edu/gadm/gadm4.1/json/gadm41_FRA_1.json"
       },
       "type": "GeoJSONSource"
     }

@@ -6,7 +6,7 @@
   ],
   "layers": {
     "03385b17-6b83-4ad0-a61c-31dc661d9d6b": {
-      "name": "Custom GeoJSON Layer",
+      "name": "Earthquake",
       "parameters": {
         "color": {
           "circle-fill-color": [
@@ -11523,7 +11523,7 @@
       "visible": true
     },
     "6763af2d-107a-4029-a24c-709e6b65d202": {
-      "name": "Custom GeoJSON Layer",
+      "name": "World",
       "parameters": {
         "color": {
           "circle-fill-color": [
@@ -12048,10 +12048,10 @@
   "options": {
     "bearing": 0.0,
     "extent": [
-      -18584968.86170423,
-      -15187699.431548597,
-      21490047.823874258,
-      13306167.057668881
+      -12370693.14658369,
+      -13175121.501083422,
+      15275772.108753717,
+      11293589.127203707
     ],
     "latitude": -8.420568807537535,
     "longitude": 13.048384166457062,
