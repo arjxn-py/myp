@@ -9,6 +9,9 @@
     },
     "disabledExtensions": [
         "@jupyterlab/filebrowser-extension:widget"
-    ]
+    ],
+    "enableMemoryStorage": true,
+    "settingsStorageDrivers": ["memoryStorageDriver"],
+    "contentsStorageDrivers": ["memoryStorageDriver"]
   }
 }
